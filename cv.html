@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/* reset css */
+			body,header,h1,h2,h3,h4,div,p,section,article,ul,li{
+				margin: 0;
+				padding:0;
+				list-style-type:none;
+			}
+
+			/* common */
+			.text-align{
+				text-align:center;
+			}
+
+			/* section header */
+			.triangle{
+				height:12.93em;
+				background-color: green;
+				border-bottom: 5px solid black;
+				transform: skewY(171deg);
+				transform-origin: left;
+			}
+
+			.override-triangle{
+				position:absolute;
+				transform: skewY(-171deg);
+				width:100%;
+			}
+
+			.job{
+				top:4.93em;
+				color: white;
+			}
+
+			.info{
+				top:12.93em;
+			}
+
+			.name{
+				position:relative;
+				top:-2em;
+				font-size: 350%;
+			}
+			.adress{
+				position:relative;
+				width:40%;
+				top:7em;
+			}
+
+			.phone{
+				position:relative;
+				width:40%;
+				top:11em;
+			}
+
+			.mail{
+				position:relative;
+				width:40%;
+				top:16em;
+			}
+			/* end section header */
+
+			/* section skill */
+			.skill{
+				background-color: red;
+				width:40%;
+				position:absolute;
+				top:8em;
+				height:35.25em;
+				z-index:-1;
+				display:inline-block;
+			}
+			.skill .title{
+				position:relative;
+				top:17em;
+			}
+			.list{
+				position:relative;
+				top:27em;
+				width:50%;
+			}
+			.left{
+				margin-left:10%;
+			}
+			.right{
+				margin-left:40%;
+				top:23.5em;
+				text-align: right;
+				padding-right:1em;
+			}
+			
+			/* end section skill*/
+
+			/* section experience */
+			.experience{
+			width:60%;
+			margin-left: 40%;
+			padding:0;
+			}
+			/* end section experience */
+
+			/* section diploma */
+			.diploma{
+			width:60%;
+			margin-left: 40%;
+			padding:0;
+			}
+			/* end section diploma */
+
+			/**/
+		</style>
+	</head>
+
+	<body>
+		<header class="triangle">
+		<h1 class="job override-triangle text-align">DEV logiciel</h1>
+	<!-- info perso -->
+		<div class="info override-triangle"> 
+			<p class="name text-align">Nom Prenom</p>
+			<p class="adress text-align">adresse</p>
+			<p class="phone text-align">tel</p>
+			<p class="mail text-align">E-mail</p>
+		</div>
+		</header>
+
+	<!-- competence -->
+		<section class="skill">
+			<h2 class="title text-align">Competences</h2>
+			<ul class="list left">
+				<li>html</li>
+				<li>css</li>
+				<li>Boostrap</li>
+			</ul>
+			<ul class="list right">
+				<li>html</li>
+				<li>css</li>
+				<li>Boostrap</li>
+			</ul>
+		</section>
+
+	<!-- xp -->
+		<section class="experience"> 
+			<h2 class="">Experiences</h2>
+			<article>
+				<h3 class="">2015</h3>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+			</article>
+			<article>
+				<h3 class="">2013</h3>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+			</article>
+			<article>
+				<h3 class="">2015</h3>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+			</article>
+		</section>
+
+	<!-- diplome -->
+		<section class="diploma">
+			<h2 class="">Diplomes</h2>
+			<article>
+				<h3 class="">2016</h3>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+			</article>
+			<article>
+				<h3 class="">2013</h3>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+			</article>
+		</section>
+
+	<!-- loisir -->
+		<section class="">
+
+		</section>
+	</body>
+</html>
