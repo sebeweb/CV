@@ -24,6 +24,7 @@ section .title{
 .triangle{
 	height:12.93em;
 	background-color: #034500;
+	padding-bottom:3em;
 	border-bottom: 5px solid white;
 	transform: skewY(171deg);
 	transform-origin: left;
@@ -36,17 +37,39 @@ section .title{
 }
 
 .job{
-	top:4.93em;
+	top:5.93em;
 	color: #8DCF8A;
+	margin-left:-2em;
 }
 
+.icon{
+	position:absolute;
+	width:32px;
+	top:1em;
+	margin-left:-2em;
+	padding-top: 0.12em;
+	transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+    	-webkit-animation: rotate 4s infinite; /* Safari 4.0 - 8.0 */
+    	animation: rotate 4s infinite;
+}
+@keyframes rotate {
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
+
+}
+@-webkit-keyframes rotate {
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
+
+}
 .info{
 	top:12.93em;	
 }
 
 .name{
 	position:relative;
-	top:-2em;
+	top:-1.2em;
 	font-size: 350%;
 	color: #8DCF8A;
 }
