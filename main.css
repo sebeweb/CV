@@ -21,25 +21,26 @@ section .title{
 }
 
 /* section header */
-.triangle{
+/*.triangle{
 	height:12.93em;
 	background-color: #034500;
 	padding-bottom:3em;
 	border-bottom: 5px solid white;
 	transform: skewY(171deg);
 	transform-origin: left;
-}
+}*/
 
-.override-triangle{
+/*.override-triangle{
 	position:absolute;
 	transform: skewY(-171deg);
 	width:100%;
-}
+}*/
 
 .job{
-	top:5.93em;
+	width:200px; 
+	/*top:5.93em;*/
 	color: #8DCF8A;
-	margin-left:-2em;
+	/*margin-left:-2em;*/
 }
 
 .icon{
@@ -67,18 +68,18 @@ section .title{
 	top:12.93em;	
 }
 
-.name{
+/*.name{
 	position:relative;
 	top:-1.2em;
 	font-size: 350%;
 	color: #8DCF8A;
-}
+}*/
 
-/*.adress{
+.adress{
 	position:relative;
 	width:40%;
 	top:7em;
-}*/
+}
 
 .phone{
 	position:relative;
